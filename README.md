@@ -1,6 +1,7 @@
 # TYPO3 PWA Demo Workshops
 
 #BACKEND PART
+
 ##Modify core content element response
 Using typoscript, we can override and any field, so we will try to add one field with static value declared in typoscript.
 
