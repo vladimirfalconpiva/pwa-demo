@@ -1,8 +1,8 @@
 # TYPO3 PWA Demo Workshops
 
-#BACKEND PART
+# BACKEND PART
 
-##Modify core content element response
+## Modify core content element response
 Using typoscript, we can override and any field, so we will try to add one field with static value declared in typoscript.
 
 Let's take tt_content with CType text with default response which look like this.
@@ -82,8 +82,8 @@ Save, clear TYPO3 cache and take a look at response now.
 We can see, that we have additional field in appearance with value "full-width". As we know what typoscript is capable of,
 we can basically insert any value into our fields.
 
-##Custom content element in TYPO3PWA approach
-###Backend part
+## Custom content element in TYPO3PWA approach
+### Backend part
 We have prepared custom content element "Image with description" implemented in EXT:site_package without content element rendering definition,
 your task is to add it.
 
