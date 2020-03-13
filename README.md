@@ -297,11 +297,7 @@ ddev ssh
 Then go to front directory and run command to kill current process on port:3000 and run development process.
 
 ```bash
-cd front
-```
-
-```bash
-./kill_node_server.sh && yarn dev
+cd front && ./kill_node_server.sh && yarn dev
 ```
 
 Now node process is watching for changes in your `front` directory.
@@ -320,7 +316,7 @@ create `components/content/CeBullets.vue`:
 <style lang="postcss">
 .ce-bullets {
   ul {
-    list-style: square;
+    list-style: initial;
   }
 }
 </style>
@@ -334,7 +330,7 @@ To override components from nuxt-typo3 you need to add your component and regist
 create `plugins/components.js`:
 ```js
 import Vue from 'vue'
-import CeBullets from '~/components/content/elements/CeBullets'
+import CeBullets from '~/components/content/CeBullets'
 
 const components = {
   CeBullets
